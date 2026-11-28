@@ -3,49 +3,75 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>루틴 앱 | HOJUFARMJOY</title>
+<title>Slowmore (슬로우모어) | HOJUFARMJOY</title>
 <style>
-  body { margin: 0; font-family: -apple-system, "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; color: #222; line-height: 1.7; background: #f7f7f7; }
-  .wrap { max-width: 800px; margin: 0 auto; padding: 24px; }
-  header { text-align: center; padding: 48px 0 16px; }
-  h1 { margin: 0 0 8px; font-size: 32px; }
+  body { margin: 0; font-family: -apple-system, "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; color: #222; line-height: 1.7; background: #f5f8ff; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px; }
+  header { text-align: center; padding: 40px 0 8px; }
+  .hero-img { width: 100%; max-width: 760px; border-radius: 16px; display: block; margin: 0 auto; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+  .app-icon { width: 120px; height: 120px; border-radius: 28px; box-shadow: 0 2px 10px rgba(0,0,0,.12); }
+  h1 { margin: 16px 0 4px; font-size: 36px; color: #1d4ed8; }
+  .tagline { font-size: 20px; color: #333; margin: 0 0 12px; }
+  .badge { display: inline-block; background: #1d4ed8; color: #fff; padding: 6px 14px; border-radius: 999px; font-size: 14px; font-weight: 600; }
+  section { background: #fff; border-radius: 14px; padding: 24px; margin: 18px 0; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
   h2 { margin: 0 0 12px; font-size: 20px; }
-  section { background: #fff; border-radius: 12px; padding: 24px; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
   ul { padding-left: 20px; margin: 0; }
+  li { margin: 4px 0; }
+  .shots { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 8px; }
+  .shots img { height: 420px; width: auto; border-radius: 14px; box-shadow: 0 1px 4px rgba(0,0,0,.1); flex: 0 0 auto; }
   table { width: 100%; border-collapse: collapse; }
   th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid #eee; vertical-align: top; }
   th { width: 30%; color: #555; font-weight: 600; }
-  .badge { display: inline-block; background: #eef4ff; color: #2563eb; padding: 4px 10px; border-radius: 999px; font-size: 14px; }
   footer { font-size: 14px; color: #666; text-align: center; padding: 24px; border-top: 1px solid #e5e5e5; margin-top: 24px; }
-  a { color: #2563eb; }
+  a { color: #1d4ed8; }
 </style>
 </head>
 <body>
 <div class="wrap">
 
   <header>
-    <h1>루틴 앱</h1>
-    <p>매일의 루틴을 간단하게 기록하고 관리하는 안드로이드 앱입니다.</p>
+    <img class="app-icon" src="images/icon-512.png" alt="Slowmore 앱 아이콘">
+    <h1>Slowmore (슬로우모어)</h1>
+    <p class="tagline">천천히, 하지만 확실하게 쌓아가는 나만의 습관</p>
     <span class="badge">Google Play 출시 준비 중</span>
   </header>
 
   <section>
+    <img class="hero-img" src="images/feature-graphic.png" alt="Slowmore 소개 이미지">
+  </section>
+
+  <section>
     <h2>앱 소개</h2>
-    <p>루틴 앱은 매일 반복하는 습관과 할 일을 한곳에서 관리할 수 있도록 만든 앱입니다. 복잡한 설정 없이 바로 시작할 수 있습니다.</p>
+    <p>Slowmore는 매일의 습관을 작게 쌓아 가도록 돕는 안드로이드 앱입니다. 오전, 낮, 저녁 루틴을 체크하고, 걸음 수, 물, 컨디션을 간단히 기록하며, 뽀모도로 타이머로 집중 시간을 관리할 수 있습니다. 귀여운 거북이 캐릭터가 매일 응원해 줍니다.</p>
   </section>
 
   <section>
     <h2>주요 기능</h2>
     <ul>
-      <li>루틴 추가, 수정, 삭제</li>
-      <li>매일 완료 여부 체크</li>
-      <li>알림 설정 (선택 사항)</li>
+      <li><strong>하루 습관 체크</strong>: 오전, 낮, 저녁 루틴을 나눠서 체크하고 진행률을 확인합니다.</li>
+      <li><strong>일상 기록</strong>: 걸음 수, 물 섭취량, 컨디션을 직접 입력해 기록합니다.</li>
+      <li><strong>뽀모도로 타이머</strong>: 25분 집중, 5분 휴식 방식으로 집중 시간을 관리합니다.</li>
+      <li><strong>딴생각 보관함</strong>: 집중 중 떠오른 생각을 메모해 두고 나중에 확인합니다.</li>
+      <li><strong>연속 달성과 통계</strong>: 불꽃 기록과 주간, 월간, 연간 통계로 꾸준함을 한눈에 봅니다.</li>
+      <li><strong>습관 탐색</strong>: 테마별 습관을 둘러보고 내 목표에 맞는 습관을 바로 추가합니다.</li>
     </ul>
   </section>
 
   <section>
+    <h2>화면 미리보기</h2>
+    <div class="shots">
+      <img src="images/screenshot-1.png" alt="하루 습관 한눈에 화면">
+      <img src="images/screenshot-2.png" alt="걸음, 물, 컨디션 기록 화면">
+      <img src="images/screenshot-3.png" alt="뽀모도로 타이머 화면">
+      <img src="images/screenshot-4.png" alt="통계 화면">
+      <img src="images/screenshot-5.png" alt="습관 탐색 화면">
+      <img src="images/screenshot-6.png" alt="연속 달성 화면">
+    </div>
+  </section>
+
+  <section>
     <h2>개인정보와 데이터</h2>
-    <p>루틴 데이터는 사용자의 기기 안에만 저장되며, 회사 서버로 전송되지 않습니다. 자세한 내용은 <a href="privacy.html">개인정보처리방침</a>을 확인해 주세요.</p>
+    <p>Slowmore는 회원가입이 필요 없습니다. 입력한 습관과 기록은 사용자의 기기 안에만 저장되며, 회사 서버로 전송되지 않습니다. 자세한 내용은 <a href="privacy.html">개인정보처리방침</a>을 확인해 주세요.</p>
   </section>
 
   <section>
